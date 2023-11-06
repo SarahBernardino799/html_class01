@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        /* 1. Crie uma função que receba um número como parâmetro e retorne 
+        "par" se o número for par e "ímpar" se o número for ímpar. */
+
+
+let number=parseInt(input("digite um numero: "));
+function verificaPar(number) {
+    if (number %2 == 0) {
+        document.write("esse número", number, "é par.");
+    }else{
+        document.write("esse número", number, "é ímpar.");
+    }
+}
+document.write(verificaPar);
+    </script>
+</body>
+</html>
